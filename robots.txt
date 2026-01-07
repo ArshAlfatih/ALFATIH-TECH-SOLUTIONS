@@ -1,0 +1,26 @@
+# robots.txt for ALFATIH SOLUTION
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://alfatihsolution.com/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow unnecessary files
+Disallow: /js/
+Disallow: /css/
+
+# Crawl-delay
+Crawl-delay: 1
